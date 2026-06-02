@@ -13,7 +13,7 @@
         {
           "id": "upd_1717382000001",
           "state": "Investigating",
-          "message": "We are investigating reports of beta testers receiving crashes due to contacting broken (non-existent) endpoints",
+          "message": "We are investigating reports of beta testers receiving crashes due to contacting broken (non-existent) endpoints.",
           "created_at": "2026-06-01T12:00:00.000Z"
         },
         {
@@ -25,7 +25,7 @@
         {
           "id": "upd_1717382000003",
           "state": "Monitoring",
-          "message": "The errors have bee fixed and a new deploy to production has been made.",
+          "message": "The errors have been fixed and a new deployment to production has been completed.",
           "created_at": "2026-06-01T14:00:00.000Z"
         },
         {
@@ -37,7 +37,5 @@
       ]
     }
   ],
-  "maintenances": [
-
-  ]
+  "maintenances": []
 }
