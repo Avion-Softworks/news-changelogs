@@ -1,0 +1,44 @@
+{
+  "incidents": [
+    {
+      "id": "inc_1717382000000",
+      "component": "Authentication",
+      "title": "HWID Verification and authentication failure",
+      "severity": "Degraded",
+      "state": "Resolved",
+      "start_at": "2026-06-01T12:00:00.000Z",
+      "end_at": "2026-06-01T15:30:00.000Z",
+      "created_at": "2026-06-01T12:00:00.000Z",
+      "updates": [
+        {
+          "id": "upd_1717382000001",
+          "state": "Investigating",
+          "message": "We are investigating reports of beta testers receiving crashes due to contacting broken (non-existent) endpoints",
+          "created_at": "2026-06-01T12:00:00.000Z"
+        },
+        {
+          "id": "upd_1717382000002",
+          "state": "Identified",
+          "message": "The issue has been traced to a faulty commit to production.",
+          "created_at": "2026-06-01T13:00:00.000Z"
+        },
+        {
+          "id": "upd_1717382000003",
+          "state": "Monitoring",
+          "message": "The errors have bee fixed and a new deploy to production has been made.",
+          "created_at": "2026-06-01T14:00:00.000Z"
+        },
+        {
+          "id": "upd_1717382000004",
+          "state": "Resolved",
+          "message": "After monitoring, Avion's API is back online and ready for continued usage.",
+          "created_at": "2026-06-01T15:30:00.000Z"
+        }
+      ]
+    },
+   
+  ],
+  "maintenances": [
+
+  ]
+}
